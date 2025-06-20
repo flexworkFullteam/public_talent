@@ -11234,6 +11234,7 @@ import react from "@vitejs/plugin-react";
 import path3 from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 var vite_config_default = defineConfig({
+  base: "/public_talent/",
   plugins: [
     react(),
     runtimeErrorOverlay(),
